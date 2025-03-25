@@ -1,0 +1,26 @@
+---
+
+# Copyright 2025 Wong Hoi Sing Edison <hswong3i@pantarei-design.com>
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# Release name to manage.
+helm_csi_snapshotter_helm_release_name: snapshot-controller
+
+# Kubernetes namespace where the chart should be installed.
+helm_csi_snapshotter_helm_release_namespace: csi-snapshotter
+
+# Value to pass to chart.
+helm_csi_snapshotter_helm_release_values:
+  snapshotController:
+    replicaCount: 1
