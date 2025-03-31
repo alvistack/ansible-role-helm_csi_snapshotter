@@ -1,7 +1,10 @@
 # Ansible Role for CSI Snapshotter with Helm
 
-## 11.4.0 - TBC
+## 11.5.0 - TBC
 
+## 11.4.0 - 2025-03-31
+
+- Support Ansible community package 11.4.0
 - Ininitial release for Ansible 4.10 or higher
 - This role was designed for:
   - Ubuntu 20.04, 22.04, 24.04, 24.10
