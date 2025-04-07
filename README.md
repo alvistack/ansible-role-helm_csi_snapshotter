@@ -7,7 +7,7 @@
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-helm_csi_snapshotter.svg)](https://github.com/alvistack/ansible-role-helm_csi_snapshotter/blob/master/LICENSE)
 [![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.helm_csi_snapshotter-blue.svg)](https://galaxy.ansible.com/alvistack/helm_csi_snapshotter)
 
-Ansible Role for CSI Snapshotter with Helm Installation.
+Ansible Role for CSI Snapshotter with Helm.
 
 ## Requirements
 
