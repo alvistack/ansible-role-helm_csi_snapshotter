@@ -24,3 +24,6 @@ helm_csi_snapshotter_helm_release_namespace: csi-snapshotter
 helm_csi_snapshotter_helm_release_values:
   snapshotController:
     replicaCount: 1
+    snapshotController:
+      image:
+        repository: registry.k8s.io/sig-storage/snapshot-controller
